@@ -1,9 +1,9 @@
 class NodeMahasiswa:
-    def __init__(self,nama,ipk,n=None,p=None):
+    def __init__(self,nama,ipk):
         self._element = nama
         self._ipk = ipk
-        self._next = n
-        self._prev = p
+        self._next = None
+        self._prev = None
     def getNama(self):
         return self._element
     def getIpk(self):
